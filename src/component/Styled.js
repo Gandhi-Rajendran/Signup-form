@@ -24,6 +24,10 @@ export const Wrapper = styled("section")`
       color: rgb(0, 0, 255);
     }
   }
+@media screen and (max-width:720px){
+    background-color:blue;
+  
+  }
 `;
 
 export const StyledForm = styled("form")`
